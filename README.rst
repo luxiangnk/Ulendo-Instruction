@@ -68,7 +68,7 @@ Configuration
 
 .. code:: shell
 
-	$ git clone https://github.com/luxiangnk/Ulendo_Release.git
+	$ git clone https://github.com/luxiangnk/Ulendo.git
 	
 
 
@@ -96,7 +96,7 @@ Run the code
 
 .. code:: shell
 
-	$ cd ~/Ulendo/Ulendo-Software-for-Taz6/RPI
+	$ cd ~/Ulendo/RPI
 	$ make
 
 
