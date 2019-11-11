@@ -1,7 +1,7 @@
 Ulendo Software (Smart 3D printing)
 **********
 
-``Ulendo`` can be used for any low cost embeded systems. We coded the method in C and shared the libraries, you can used them in any distrubutions or you ransfer them into any program language to use them in your own systems. 
+``Ulendo`` can be used for any low cost embeded systems. We coded the method in C and shared the libraries, you can use them in any distrubutions or transfer them into any program language to use them in your own systems. 
 
 The software contains two parts: 
 
@@ -40,8 +40,8 @@ Architectures
 ::
 
     ├── Marlin                              // Modified Marlin firmware 
-    └── RPI                                 // Software runs in the Raspberry Pi
-        ├── Readme.rst                      // help
+    └── RPI                                 // The software runs in the Raspberry Pi
+        ├── Readme.rst                      // help file
         ├── Gcodes                          // Put all your Gcodes in this folder
 	│   ├── Printing
 	│   │      └── Groot.gcode          // Put the Gcode that you are going to print in this folder (delete others)
@@ -106,15 +106,15 @@ Run the code
 
 	$ ./main
 
-- Push the button of your printer, and select "Print with Ulendo->Start".
+- Select "Print with Ulendo->Start" from your printer's screen.
 
-- The code will check the license first and it will takes several seconds before printing.
+- The code will check the license first and it will take several seconds before printing.
 
-- You can read the comments in the codes if you want to call the APIs from the shared object file.
+- You can read the comments in the code if you want to call the APIs from the shared object file.
 
-- If you want to change the Gcode, you can put your Gcode in the "RPI/Gcodes/Printing/" and make sure there is only one Gcode file in the folder.
+- If you want to change the Gcode, you can put your own Gcode in the folder of "RPI/Gcodes/Printing/" and make sure there is only one Gcode file in the folder.
 
-- If you want to change the printing parameters, you can push the printer's button and select "Print with Ulendo->Setting".
+- If you want to change printing parameters, you select "Print with Ulendo->Setting" from the printer's screen.
 
 
 About LPFBS
