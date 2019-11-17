@@ -1,11 +1,11 @@
 Ulendo Software (Smart 3D printing)
 **********
 
-``Ulendo`` can be used for any low cost embeded systems. We coded the method in C and shared the libraries, you can use them in any distrubutions or transfer them into any program language to use them in your own systems. 
+``Ulendo`` can be used on low cost embedded systems microcontroller. We coded the method in C and shared the libraries here on Github; you can use them in any distribution or transfer them into any programing language to use them on your own systems.
 
 The software contains two parts: 
 
-- A software with the vabrition compensent method runs on an embeded system; 
+- A software with the vibration compensation method that runs on an embedded system; 
 - A modified Marlin firmware. 
 
 
@@ -31,7 +31,7 @@ Preparation
 - Hardware:
 	 + Raspberry Pi 3 Model B+
 	 + USB Printer Cable 
-	 + Monitor, Mouse and Keyboard for the Raspberry
+	 + Monitor, Mouse and Keyboard for the Raspberry Pi
 	 
  
 Architectures
@@ -59,7 +59,7 @@ Configuration
 
 - Marlin Firmware:
 	 + Flash the modified Marlin firmware to the board on the printer.
-	 + You can follow the instruction from http://marlinfw.org/docs/basics/install_arduino.html
+	 + You can follow the instructions from http://marlinfw.org/docs/basics/install_arduino.html
 
 - Ulendo Software:
 	 + Download the “Raspbian Buster with desktop” from https://www.raspberrypi.org/downloads/raspbian/
@@ -75,7 +75,7 @@ Configuration
 Run the code
 ============
 
-- Make sure the Raspberry Pi is connected with the internet.
+- Make sure the Raspberry Pi is connected to the internet.
 
 
 - Make sure the printer's board appears as /dev/ttyACM0, you can check it with:
