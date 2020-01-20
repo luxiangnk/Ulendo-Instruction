@@ -29,7 +29,7 @@ Preparation
 ============
 
 - Hardware:
-	 + Raspberry Pi 3 Model B+
+	 + Raspberry Pi 3 Model B/B+
 	 + USB Printer Cable 
 	 + Monitor, Mouse and Keyboard for the Raspberry Pi
 	 
